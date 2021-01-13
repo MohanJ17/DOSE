@@ -601,6 +601,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   left: 0;
   padding: 10px;
   background-color: rgb(148,152,154);
+  background-color: rgba(148,152,154,0.8);
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   overflow-y: auto;

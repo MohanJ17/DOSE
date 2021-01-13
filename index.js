@@ -226,7 +226,7 @@
       return;
     }
     viewer.startMovement(autorotate);
-    viewer.setIdleMovement(3000, autorotate);
+    viewer.setIdleMovement(2500, autorotate);
   }
 
   function stopAutorotate() {

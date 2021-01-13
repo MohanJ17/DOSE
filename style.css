@@ -320,8 +320,8 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 }
 
 .no-touch #sceneList .scene:hover {
-  background-color: rgb(148,152,154);
-  background-color: rgba(148,152,154,0.8);
+  background-color: rgb(112,115,117);
+  background-color: rgba(112,115,117,0.8);
 }
 
 #sceneList .scene.current {
@@ -600,7 +600,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   top: 40px;
   left: 0;
   padding: 10px;
-  background-color: rgb(112,115,117);
+  background-color: rgb(148,152,154);
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   overflow-y: auto;

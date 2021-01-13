@@ -200,61 +200,6 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   display: none;
 }
 
-#volumeToggle {
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 40px;
-  height: 40px;
-  padding: 5px;
-  background-color: rgb(112,115,117);
-  background-color: rgba(112,115,117,0.8);
-}
-
-.mobile #autorotateToggle {
-  width: 50px;
-  height: 50px;
-}
-
-/* If there is a autorotate button, volume must placed a bit to the left */
-body.autorotate-enabled #volumeToggle {
-  right: 40px;
-}
-
-body.autorotate-enabled.mobile #volumeToggle {
-  right: 50px;
-}
-
-#volumeToggle .icon {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  width: 30px;
-  height: 30px;
-}
-
-.mobile #volumeToggle .icon {
-  top: 10px;
-  right: 10px;
-}
-
-#volumeToggle .icon.on {
-  display: none;
-}
-
-#volumeToggle .icon.off {
-  display: block;
-}
-
-#volumeToggle.enabled .icon.on {
-  display: block;
-}
-
-#volumeToggle.enabled .icon.off {
-  display: none;
-}
-
 #sceneListToggle {
   position: absolute;
   top: 0;

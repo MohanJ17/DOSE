@@ -80,7 +80,7 @@ body.multiple-scenes.mobile #titleBar {
   line-height: 30px;
   padding: 5px;
   background-color: rgb(112,115,117);
-  background-color: rgba(112,115,117,0.8);
+  background-color: rgba(112,115,117,0.6);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -273,8 +273,8 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 
 #sceneList .scenes {
   width: 100%;
-  background-color: rgb(58,68,84);
-  background-color: rgba(58,68,84,0.8);
+  background-color: rgb(112,115,117);
+  background-color: rgba(112,115,117,0.8);
 }
 
 .mobile #sceneList {
@@ -376,8 +376,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
   border-radius: 5px;
 
-  background-color: rgb(58,68,84);
-  background-color: rgba(58,68,84,0.8);
+  background-color: rgb(112,115,117);
+  background-color: rgba(112,115,117,0.8);
 
   color: #fff;
 
@@ -453,7 +453,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  background-color: rgb(103,115,131);
+  background-color: rgb(112,115,117);
   cursor: pointer;
   -webkit-transition: width 0.3s ease-in-out 0.5s,
                       border-radius 0.3s ease-in-out 0.5s;
@@ -462,9 +462,9 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 }
 
 .mobile .info-hotspot .info-hotspot-header {
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
 }
 
 .desktop.no-touch .info-hotspot .info-hotspot-header:hover {

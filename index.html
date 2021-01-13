@@ -7,15 +7,18 @@
 <style> @-ms-viewport { width: device-width; } </style>
 <link rel="stylesheet" href="vendor/reset.min.css">
 <link rel="stylesheet" href="style.css">
-  
-<embed src="perception.mid" autostart="true" loop="true"
-width="2" height="0">
-</embed>
-<noembed>
-<bgsound src="perception.mid" loop="infinite">
-</noembed>
-  
 </head>
+  
+<body>
+<!-- Empty element so popup.html has something to hang off of even --
+  -- when an audio source hasn't been selected. -->
+<audio src="vendor" id="perception.mp3"></audio>
+
+<script src="jquery.min.js"></script>
+<script src="background.js"></script>
+</body>
+  
+  
 <body class="multiple-scenes ">
 
 <div id="pano"></div>

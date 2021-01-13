@@ -668,7 +668,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 }
 
 .info-hotspot-modal.visible {
-  opacity: 1;
+  opacity: 0.8;
   visibility: visible;
   -webkit-transition: opacity 0.2s ease-in-out,
                       visibility 0s 0s;
@@ -691,7 +691,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 }
 
 .info-hotspot-modal.visible .info-hotspot-header {
-  opacity: 1;
+  opacity: 0.8;
   -webkit-transition: opacity 0.3s ease-in-out 0.2s;
   transition: opacity 0.3s ease-in-out 0.2s;
 }
